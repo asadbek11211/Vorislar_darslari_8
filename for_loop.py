@@ -27,14 +27,14 @@
 #     print(f"{son}/9 ning qiymati : {son/9} ga teng")
 
 
-sonlar2 = []
+# sonlar2 = []
 
-sonlar = list(range(27,54,7))
+# sonlar = list(range(27,54,7))
 
-print(f"Asl royhat : {sonlar}")
-for son in sonlar:
-    sonlar2.append(son**4)
-print(f"4-darajaga oshgan royhat {sonlar2}")
+# print(f"Asl royhat : {sonlar}")
+# for son in sonlar:
+#     sonlar2.append(son**4)
+# print(f"4-darajaga oshgan royhat {sonlar2}")
 
 
 
