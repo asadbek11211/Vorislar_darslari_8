@@ -27,3 +27,22 @@
 # narx = int(input(" 1 kg kanfet narxini kiriting : "))
 # for son in numpy.arange(0.1, 1, 0.1):
 #     print(f"{son} klagram kanfetning narxi : {son*narx} so'm")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
