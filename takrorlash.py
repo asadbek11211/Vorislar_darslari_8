@@ -30,15 +30,20 @@
 
 
 
-qiymat1 = int(input("Birinchi qiymatni kiriting : "))
-qiymat2 = int(input("Ikkinchi qiymatni kiriting : "))
-qiymat3 = int(input("Uchinchi qiymatni kiriting : "))
-qiymat4 = int(input("Tortinchi qiymatni kiriting : "))
-print(f"{qiymat1} ning kubi {qiymat1**3}")
-print(f"{qiymat2} ning 4-darajasi {qiymat2**4}")
-print(f"{qiymat3} ning 5-darajasi {qiymat3**5}")
-print(f"{qiymat4} ning 5-darajasi {qiymat4**6}")
+# qiymat1 = int(input("Birinchi qiymatni kiriting : "))
+# qiymat2 = int(input("Ikkinchi qiymatni kiriting : "))
+# qiymat3 = int(input("Uchinchi qiymatni kiriting : "))
+# qiymat4 = int(input("Tortinchi qiymatni kiriting : "))
+# print(f"{qiymat1} ning kubi {qiymat1**3}")
+# print(f"{qiymat2} ning 4-darajasi {qiymat2**4}")
+# print(f"{qiymat3} ning 5-darajasi {qiymat3**5}")
+# print(f"{qiymat4} ning 5-darajasi {qiymat4**6}")
 
-
+mashina = ["i", "pechchi", "Nice", "e", "o"]
+mashina[0]="Bmw"
+mashina[3]="Malibu"
+mashina[4]="Onix"
+mashina[3].upper()
+print(mashina[3].upper())
 
 
