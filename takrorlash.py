@@ -39,11 +39,11 @@
 # print(f"{qiymat3} ning 5-darajasi {qiymat3**5}")
 # print(f"{qiymat4} ning 5-darajasi {qiymat4**6}")
 
-mashina = ["i", "pechchi", "Nice", "e", "o"]
-mashina[0]="Bmw"
-mashina[3]="Malibu"
-mashina[4]="Onix"
-mashina[3].upper()
-print(mashina[3].upper())
+# mashina = ["i", "pechchi", "Nice", "e", "o"]
+# mashina[0]="Bmw"
+# mashina[3]="Malibu"
+# mashina[4]="Onix"
+# mashina[3].upper()
+# print(mashina[3].upper())
 
 
