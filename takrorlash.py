@@ -17,13 +17,28 @@
 # kub3=qiymat3**3
 # yigindi=(kub1+kub2+kub3)
 # print(yigindi)
-mevalar=['olma','gilos','banan','orik']
-print(mevalar[2])
-mevalar.insert(2,'olcha')
-print(mevalar)
+# mevalar=['olma','gilos','banan','orik']
+# print(mevalar[2])
+# mevalar.insert(2,'olcha')
+# print(mevalar)
 
-mevalar.append('shaftoli')
-print(mevalar)
+# mevalar.append('shaftoli')
+# print(mevalar)
 
-mevalar.pop()
-print(mevalar)
+# mevalar.pop()
+# print(mevalar)
+
+
+
+qiymat1 = int(input("Birinchi qiymatni kiriting : "))
+qiymat2 = int(input("Ikkinchi qiymatni kiriting : "))
+qiymat3 = int(input("Uchinchi qiymatni kiriting : "))
+qiymat4 = int(input("Tortinchi qiymatni kiriting : "))
+print(f"{qiymat1} ning kubi {qiymat1**3}")
+print(f"{qiymat2} ning 4-darajasi {qiymat2**4}")
+print(f"{qiymat3} ning 5-darajasi {qiymat3**5}")
+print(f"{qiymat4} ning 5-darajasi {qiymat4**6}")
+
+
+
+
