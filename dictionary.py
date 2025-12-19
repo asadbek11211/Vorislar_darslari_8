@@ -11,4 +11,4 @@
 # print(boburbek['tel_nomer'])
 # print(f"{boburbek['ism'].title()} ning tel nomeri {boburbek['tel_nomer']}")
 import math
-print(math.ceil(3.9) )
+print(math.log(100,10))
