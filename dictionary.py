@@ -10,4 +10,5 @@
 # print(boburbek['ism'].title())
 # print(boburbek['tel_nomer'])
 # print(f"{boburbek['ism'].title()} ning tel nomeri {boburbek['tel_nomer']}")
-math.floor(3.9) 
+import math
+print(math.ceil(3.9) )
