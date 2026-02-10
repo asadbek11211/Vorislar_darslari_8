@@ -78,8 +78,18 @@ elif boy > 1.8:
 print("Shu paytgacha qanaqa telefonlarni ishlatgansiz :")
 
 telefonlar = []
-ishora = False
+ishora = True
+son = 1
+tel = ""
 
+savol_tugatish = "Tugatish un 'exit' "
+while ishora :
+    savoltel = f"{son}-telefoningiz nima edi(exit) : "
+    tel = input(savoltel) 
+    telefonlar.append(tel) 
+    son = son + 1
+    if tel == 'exit':
+        break
 
 
 
