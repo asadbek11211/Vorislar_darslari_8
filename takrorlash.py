@@ -54,12 +54,31 @@
 #     print("Abadiy sikl ....")
 
 
+print("O'quvchilar haqida sorovnoma // ")
 
+ism = input("Ismingizni kiriting ! : ")
 
+savol = f"Salom {ism.title()}, iltimos yoshingizni kiriting : "
+yosh = int(input(savol))
 
+boy = float(input(f"{ism.title()} siz {2026-yosh} - yilda tugulgan eknsiz. Iltimos boyingizni kiriting"))
 
+print("""Statistika boyicha qaralsa insonning bo'yi :
+      1m oraligida bolsa gimnastikaga,
+      1.7m oraligida bolsa ogir atletikaga,
+      2m dan ortiq bo'lsa basketbolga yonaltirish kerak """)
 
+if boy <= 1.5:
+    print(f"{ism.title()} siz GIMNASTIKA ga qatnashishingiz kerak " )
+elif boy > 1.5 and boy <= 1.8 :
+    print(f"{ism.title()} siz OG'IR ATLETIKA, BOKS, FODBOL ga qatnashsangiz yaxshi natijaga erishasiz " )
+elif boy > 1.8:
+    print(f"{ism.title()} siz hohlagan sport turi bn shugullana olishingiz mumkin ekan " )
 
+print("Shu paytgacha qanaqa telefonlarni ishlatgansiz :")
+
+telefonlar = []
+ishora = False
 
 
 
