@@ -26,9 +26,16 @@ son1 = 2.36
 son4 = True
 
 # list 
-ismlar = ["alijon", 'boburbek',"murodjon"]
+# ismlar = ["alijon", 'boburbek',"murodjon"]
 
-import math
-sonn1 = pow(4,6)
-print(f"{4} ning {6}- darajasi {sonn1} ga teng")
+# import math
+# sonn1 = pow(4,6)
+# print(f"{4} ning {6}- darajasi {sonn1} ga teng")
 
+
+
+def PowerA3(a,b):
+    return(a**b)
+
+javob = PowerA3(10,3)
+print(javob)

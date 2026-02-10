@@ -47,3 +47,21 @@
 # print(mashina[3].upper())
 
 
+
+# while sikl operatori
+# son = 4
+# while son >= 2:
+#     print("Abadiy sikl ....")
+
+
+
+
+
+
+
+
+
+
+
+
+
